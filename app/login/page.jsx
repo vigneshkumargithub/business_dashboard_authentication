@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { supabase } from '@/lib/supabase';
 import { useRouter } from 'next/navigation';
-import './login.css'; // Ensure CSS file is correctly imported or globally available
+import './login.css'; 
 
 export default function Login() {
   const [email, setEmail] = useState('');
@@ -16,7 +16,7 @@ export default function Login() {
     if (!error) {
       router.push('/dashboard');
     } else {
-      alert(error.message); // Optional error handling
+      alert(error.message); 
     }
   };
 
