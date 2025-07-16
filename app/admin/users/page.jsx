@@ -20,7 +20,6 @@ export default function AdminUsersPage() {
     } else {
       fetchUsers();
 
-      // Auto refresh users list every 10 seconds
       const interval = setInterval(fetchUsers, 10000);
       return () => clearInterval(interval);
     }
