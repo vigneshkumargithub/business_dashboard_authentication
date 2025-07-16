@@ -1,0 +1,50 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./app/dashboard/dashboard.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.dashboard-container {
+  font-family: 'Poppins', sans-serif;
+  background: #f2f2f2;
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
+  color: white;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.nav-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+}
+
+.logout-btn {
+  background: white;
+  color: #4158d0;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.logout-btn:hover {
+  background: #e0e0e0;
+}
+
+.dashboard-content {
+  padding: 40px;
+  text-align: center;
+}
+
