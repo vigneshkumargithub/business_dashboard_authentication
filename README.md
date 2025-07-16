@@ -2,13 +2,13 @@
 Using NextJs and supabase
 
 
-# 🧑‍💻 Supabase Auth Dashboard (Admin/User Role Based)
+# Supabase Auth Dashboard (Admin/User Role Based)
 
 A full-stack Next.js app using **Supabase** for authentication with **role-based routing** and a protected **admin dashboard** that allows managing all users (view, edit, delete).
 
 ---
 
-## 🚀 Features
+## Features
 
 - 1. User Signup/Login with Supabase Auth
 - 2. Role-based routing (Admin/User)
@@ -23,7 +23,7 @@ A full-stack Next.js app using **Supabase** for authentication with **role-based
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Next.js (App Router)**
 - **Supabase Auth**
